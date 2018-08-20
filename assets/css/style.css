@@ -1,0 +1,228 @@
+
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+
+}
+p {font-size: 16px;}
+.margin {margin-bottom: 45px;}
+h3 {font-size: 36px;}
+
+
+
+.bg-1 { 
+    background: linear-gradient(
+        rgba(20,20,20, .8), 
+        rgba(20,20,20, .8)),
+         url('../images/silverlake.png');
+    opacity: 1;
+    background-size: cover;
+    height: 100%;
+    font-family: Exo;
+    font-size: 45px;
+    text-shadow:black 0 2px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#factButton {
+    background-color: #7FDBFF;
+}
+
+
+
+.bg-2 { 
+    background-color:  #7FDBFF; 
+    color: #fff;
+   margin-bottom:30px;
+}
+
+.bg-5 { 
+    background-color: black;
+    color:  #7FDBFF;
+    height: 100vh;
+
+}
+
+
+
+
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+    z-index: 500;
+ 
+}
+.navbar-nav  li a:hover {
+    color: #7FDBFF !important;
+}
+
+#nav a {
+    -webkit-transition: all 0.5s ease;
+   }
+
+.form-group {
+    width:80%;
+    margin: auto;
+    
+}
+
+/* label {
+    padding: 10px;
+} */
+
+.btn {
+
+    padding: 20px 30px 20px 30px;
+    font-size: 20px;
+}
+
+#animate {
+  
+    position: relative;
+    -webkit-animation-name: example;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;  /* Safari 4.0 - 8.0 */    
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;    
+    animation-fill-mode: forwards;
+}
+
+/* Animate welcome to site... */
+@-webkit-keyframes example {
+    from {top: -20px;}
+    to {top: 50px; color: white;background-color:transparent;font-weight: bold;}
+}
+
+@keyframes example {
+    from {top: -20px;}
+    to {top: 50px; color:#7FDBFF; background-color: transparent;font-weight: bold;}
+}
+
+#videoButton {
+    background:transparent;
+    border-radius: 10px;
+    border-color: #7FDBFF;
+    color: white;
+    position: absolute;
+    top:80%;
+
+   
+}
+#videoButton:hover {
+    background-color:#7FDBFF; 
+    color: white;
+}
+
+
+
+#contactButton {
+    background:transparent;
+    border-radius: 10px;
+    border-color: #7FDBFF;
+    padding: 10px 20px 10px 20px;
+    margin-top: 15px;
+    color: white; 
+}
+
+#contactButton:hover {
+    background-color:#7FDBFF; 
+    color: white;
+}
+.col-sm-3 {
+    text-align: center;
+}
+
+#polaroids {
+        /* content: attr(Golf Course Pond); */
+        -webkit-transform: rotate(-5deg);
+         -moz-transform: rotate(-5deg);
+         position: relative;
+        right: 5px;
+        -webkit-transition: -webkit-transform .15s linear;
+        -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+        -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+        padding: 10px 10px 15px;
+        width: 80%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+        font-family: "Marker Felt", sans-serif;
+        text-decoration: none;
+        color: #333;
+        font-size: 24px;
+        margin-top: 60px;
+      }
+
+      #polaroids:hover {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        position: relative;
+        z-index: 5;
+      }
+
+
+#polaroids2 {
+     position: relative;
+     left: 5px;
+    right: 5px;
+    -webkit-transition: -webkit-transform .15s linear;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+    padding: 10px 10px 15px;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    font-family: "Marker Felt", sans-serif;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+  }
+
+  #polaroids2:hover {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    position: relative;
+    z-index: 5;
+  }
+
+  #contactForm {
+      margin-top:80px;
+  }
+
+  .fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 5px 5px;
+  }
+  
+  .fa:hover {
+      opacity: 0.9;
+  }
+
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
