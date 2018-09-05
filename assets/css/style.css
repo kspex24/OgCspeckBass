@@ -5,7 +5,7 @@ body {
 
 }
 p {font-size: 16px;}
-.margin {margin-bottom: 45px;}
+/* .margin {margin-bottom: 45px;} */
 h3 {font-size: 36px;}
 
 
@@ -29,6 +29,7 @@ h3 {font-size: 36px;}
 
 #factButton {
     background-color: #7FDBFF;
+    padding: 20px;
 }
 
 
@@ -71,6 +72,14 @@ h3 {font-size: 36px;}
 #nav a {
     -webkit-transition: all 0.5s ease;
    }
+
+#logo {
+    color: #7FDBFF !important;
+    font-family: Hanalei Fill;
+    font-weight: bold;
+    font-size: 28px;
+
+}
 
 .form-group {
     width:80%;
@@ -224,5 +233,9 @@ h3 {font-size: 36px;}
   .fa-instagram {
     background: #125688;
     color: white;
+  }
+
+  #spacer {
+      margin-top: 25px;
   }
 
